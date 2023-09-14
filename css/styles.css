@@ -20,7 +20,7 @@ body {
   color: #4d5ae5;
 }
 
-.logo-right {
+.studio {
   color: #2e2f42;
 }
 
@@ -29,12 +29,12 @@ body {
   color: #2e2f42;
 }
 
-.navigation-list-item:hover,
-.navigation-list-item:focus {
+.menu-link:hover,
+.menu-link:focus {
   color: #404bbf;
 }
 
-address {
+.contacts {
   font-style: normal;
 }
 
@@ -51,12 +51,12 @@ li {
   color: #434455;
 }
 
-.section-1 {
+.order {
   color: #f4f4fd;
   background: #2e2f42;
 }
 
-.section-3 {
+.team {
   background: #f4f4fd;
 }
 
@@ -94,8 +94,10 @@ li {
   font-size: 36px;
   font-weight: 700;
   line-height: 1.11;
-  letter-spacing: 0.72px;
+  letter-spacing: 0.02em;
   text-transform: capitalize;
+  text-align: center;
+  color: #2e2f42;
 }
 
 /* Header 3 */
@@ -123,4 +125,16 @@ li {
 .contacts-list-item:hover,
 .contacts-list-item:focus {
   color: #404bbf;
+}
+
+.team {
+  background-color: #ffffff;
+}
+
+.side-end {
+  background-color: #2e2f42;
+}
+
+.text-end {
+  color: #f4f4fd;
 }

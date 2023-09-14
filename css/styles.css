@@ -38,6 +38,15 @@ body {
   font-style: normal;
 }
 
+.contacts-list-item {
+  color: #434455;
+}
+
+.contacts-list-item:hover,
+.contacts-list-item:focus {
+  color: #404bbf;
+}
+
 a {
   text-decoration: none;
   color: #2e2f42;
@@ -45,10 +54,6 @@ a {
 
 li {
   list-style: none;
-}
-
-.contacts-list-item .portfolio-text {
-  color: #434455;
 }
 
 .order {
@@ -146,5 +151,9 @@ li {
 }
 
 .text-end {
+  color: #f4f4fd;
+}
+
+.studio2 {
   color: #f4f4fd;
 }

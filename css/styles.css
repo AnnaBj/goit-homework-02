@@ -133,8 +133,12 @@ li {
   color: #18ffff;
 }
 
-.contacts-list-list:hover,
-.contacts-list-list:focus {
+.contacts-list-link {
+  color: #434455;
+}
+
+.contacts-list-link:hover,
+.contacts-list-link:focus {
   color: #404bbf;
 }
 

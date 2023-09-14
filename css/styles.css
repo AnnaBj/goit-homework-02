@@ -85,8 +85,14 @@ li {
   background-color: #404bbf;
 }
 
-.navigation-list-item:focus {
+.navigation-list-item {
   background: #404bbf;
+  color: #434455;
+}
+
+.navigation-list-item:hover,
+.navigation-list-item:focus {
+  color: #404bbf;
 }
 
 /* Header 2 */
@@ -128,6 +134,10 @@ li {
 }
 
 .team {
+  background-color: #f4f4fd;
+}
+
+.team-list {
   background-color: #ffffff;
 }
 

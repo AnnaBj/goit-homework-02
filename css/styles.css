@@ -17,10 +17,11 @@ body {
   line-height: 1.17;
   letter-spacing: 0.54px;
   text-transform: uppercase;
+  color: #4d5ae5;
 }
 
-.logo-blue {
-  color: #4d5ae5;
+.logo-right {
+  color: #2e2f42;
 }
 
 .navigation-list-item {
@@ -31,6 +32,10 @@ body {
 .navigation-list-item:hover,
 .navigation-list-item:focus {
   color: #404bbf;
+}
+
+address {
+  font-style: normal;
 }
 
 a {
@@ -46,12 +51,12 @@ li {
   color: #434455;
 }
 
-.dark-bg {
+.section-1 {
   color: #f4f4fd;
   background: #2e2f42;
 }
 
-.light-bg {
+.section-3 {
   background: #f4f4fd;
 }
 
@@ -71,16 +76,21 @@ li {
   color: #fff;
   font-weight: 500;
   letter-spacing: 0.64px;
+  line-height: 1.5;
   cursor: pointer;
 }
 
 .order-btn:hover,
+.order-btn:focus {
+  background-color: #404bbf;
+}
+
 .navigation-list-item:focus {
   background: #404bbf;
 }
 
 /* Header 2 */
-h2 {
+.section-title {
   font-size: 36px;
   font-weight: 700;
   line-height: 1.11;
@@ -89,11 +99,17 @@ h2 {
 }
 
 /* Header 3 */
-h3 {
+.section-subtitle {
+  color: #2e2f42;
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.4px;
+  text-align: center;
+}
+
+.section-text {
+  font-size: 16px;
 }
 
 .logo-2 {
@@ -102,10 +118,6 @@ h3 {
 
 .page-nav .link:hover {
   color: #18ffff;
-}
-
-.social-links .link:active {
-  color: red;
 }
 
 .contacts-list-item:hover,

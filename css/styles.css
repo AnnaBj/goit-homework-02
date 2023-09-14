@@ -133,8 +133,8 @@ li {
   color: #18ffff;
 }
 
-.contacts-list-item:hover,
-.contacts-list-item:focus {
+.contacts-list-list:hover,
+.contacts-list-list:focus {
   color: #404bbf;
 }
 
@@ -154,6 +154,6 @@ li {
   color: #f4f4fd;
 }
 
-.studio-2 {
+.studio-white {
   color: #f4f4fd;
 }

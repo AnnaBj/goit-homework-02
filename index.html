@@ -4,24 +4,46 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>WebStudio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+      integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
     <header>
       <!--Navigation-->
-      <nav>
-        <a href="./index.html">WebStudio </a>
-        <ul>
-          <li><a href="">Studio</a></li>
-          <li><a href="">Portfolio</a></li>
-          <li><a href="./about.html">Contacts</a></li>
+      <nav class="navigation">
+        <a href="./index.html" class="logo"
+          ><span class="logo-blue">Web</span>Studio
+        </a>
+        <ul class="navigation-list">
+          <li class="navigation-list-item"><a href="">Studio</a></li>
+          <li class="navigation-list-item"><a href="">Portfolio</a></li>
+          <li class="navigation-list-item">
+            <a href="./about.html">Contacts</a>
+          </li>
         </ul>
       </nav>
 
       <!--Contacts-->
-      <address>
-        <ul>
-          <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-          <li><a href="tel:+110001111111">+11(000)111-11-11</a></li>
+      <address class="contacts">
+        <ul class="contacts-list">
+          <li class="contacts-list-item">
+            <a href="mailto:info@devstudio.com">info@devstudio.com</a>
+          </li>
+          <li class="contacts-list-item">
+            <a href="tel:+110001111111">+11(000)111-11-11</a>
+          </li>
         </ul>
       </address>
     </header>
@@ -29,9 +51,9 @@
     <!--Main content-->
     <main>
       <!--Section 1-->
-      <section>
-        <h1>Effective Solutions for Your Business</h1>
-        <button type="button">Order Service</button>
+      <section class="dark-bg">
+        <h1 class="main-title">Effective Solutions for Your Business</h1>
+        <button type="button" class="order-btn">Order Service</button>
       </section>
 
       <!--Section 2-->
@@ -70,7 +92,7 @@
       </section>
 
       <!--Section 3-->
-      <section>
+      <section class="light-bg">
         <h2>Our Team</h2>
         <ul>
           <li>
@@ -115,11 +137,79 @@
           </li>
         </ul>
       </section>
+
+      <section class="sec-portfolio">
+        <h2 class="portfolio-litle">Our Portfolio</h2>
+        <ul class="portfolio-list">
+          <li class="postfolio-list-item">
+            <img
+              src="./images/BankingApp.jpg"
+              width="360"
+              height="300"
+              alt="Banking App"
+            />
+            <h3 class="portfolio-subtitle">Banking App</h3>
+            <p class="portfolio-text">App</p>
+          </li>
+          <li class="postfolio-list-item">
+            <img
+              src="./images/CashlessPayment.jpg"
+              width="360"
+              height="300"
+              alt="Cashless Payment"
+            />
+            <h3 class="portfolio-subtitle">Cashless Payment</h3>
+            <p class="portfolio-text">Marketing</p>
+          </li>
+          <li class="postfolio-list-item">
+            <img
+              src="./images/MeditationApp.jpg"
+              width="360"
+              height="300"
+              alt="Meditation App"
+            />
+            <h3 class="portfolio-subtitle">Meditation App</h3>
+            <p class="portfolio-text">App</p>
+          </li>
+          <li class="postfolio-list-item">
+            <img
+              src="./images/TaxiService.jpg"
+              width="360"
+              height="300"
+              alt="Taxi Service"
+            />
+            <h3 class="portfolio-subtitle">Taxi Service</h3>
+            <p class="portfolio-text">Marketing</p>
+          </li>
+          <li class="postfolio-list-item">
+            <img
+              src="./images/ScreenIllustrations.jpg"
+              width="360"
+              height="300"
+              alt="Screen Illustrations"
+            />
+            <h3 class="portfolio-subtitle">Screen Illustrations</h3>
+            <p class="portfolio-text">Design</p>
+          </li>
+          <li class="postfolio-list-item">
+            <img
+              src="./images/OnlineCourses.jpg"
+              width="360"
+              height="300"
+              alt="Online Courses"
+            />
+            <h3 class="portfolio-subtitle">Online Courses</h3>
+            <p class="portfolio-text">Marketing</p>
+          </li>
+        </ul>
+      </section>
     </main>
 
-    <footer>
+    <footer class="dark-bg">
       <!--Logo with some text-->
-      <a href="./index.html">WebStudio</a>
+      <a href="./index.html" class="logo"
+        ><span class="logo-blue">Web</span><span class="logo-2">Studio</span>
+      </a>
       <p>
         Increase the flow of customers and sales for your business with digital
         marketing & growth solutions.
